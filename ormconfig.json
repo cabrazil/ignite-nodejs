@@ -1,0 +1,19 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "93.188.162.158",
+  "port": 5432,
+  "username": "postgres",
+  "password": "vane33",
+  "database": "gng510",
+  
+  "migrations": [
+    "./src/database/migrations/**.ts"
+  ],
+  "entities": [
+    "./src/modules/*/entities/**.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
